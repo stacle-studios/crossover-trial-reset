@@ -11,7 +11,7 @@ This is a **bash script** designed to reset the trial period of **CrossOver** (a
 
 ### 1. Download the Script
 
-Download the `reset-crossover.sh` script to your local machine.
+Download the `reset_crossover.sh` script to your local machine.
 
 You can do this by cloning or downloading the repository, or by manually copying the script from here.
 
@@ -20,7 +20,7 @@ You can do this by cloning or downloading the repository, or by manually copying
 After downloading the script, open **Terminal** and navigate to the folder where the script is located. Run the following command to make the script executable:
 
 ```bash
-chmod +x reset-crossover.sh
+chmod +x reset_crossover.sh
 ```
 
 ### 3. Run the Script
@@ -28,7 +28,7 @@ chmod +x reset-crossover.sh
 Once the script is executable, simply run it by typing the following command in your Terminal:
 
 ```bash
-./reset-crossover.sh
+./reset_crossover.sh
 ```
 
 The script will automatically:
