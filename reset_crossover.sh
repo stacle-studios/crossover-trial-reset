@@ -5,7 +5,11 @@ echo "Started at: $(date)"
 echo
 
 # Locate CrossOver binary
-CO_PWD=~/Applications/CrossOver.app/Contents/MacOS
+# Locate CrossOver binary
+path=/Applications/CrossOver.app/Contents/MacOS
+CO_PWD="$HOME$path"
+
+[ -d "${CO_PWD}" ] || CO_PWD="$path"
 while [ ! -d "${CO_PWD}" ]; do
     echo "[ERROR] Application not valid. Please provide the binary location."
     read -r -p "Location: " CO_PWD
